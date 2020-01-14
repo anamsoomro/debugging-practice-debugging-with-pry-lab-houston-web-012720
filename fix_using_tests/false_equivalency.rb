@@ -1,6 +1,3 @@
-require 'pry'
-
-
 def get_user_input
   gets.chomp
 end
@@ -17,7 +14,6 @@ def selection(num)
   elsif num = 2
      puts "HAM HAM HAM IN MY TUMMY"
   end
-  binding.pry
 end
 
 def runner
