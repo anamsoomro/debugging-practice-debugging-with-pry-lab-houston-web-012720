@@ -9,11 +9,13 @@ def prompt_user
 end
 
 def selection(num)
+  prompt = nil
   if num = 1
-    puts "YUM YUM MUNCH MUNCH MUNCH"
+    prompt = "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
-    puts "HAM HAM HAM IN MY TUMMY"
+    prompt = "HAM HAM HAM IN MY TUMMY"
   end
+  prompt
 end
 
 def runner
