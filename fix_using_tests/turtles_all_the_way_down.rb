@@ -9,7 +9,7 @@ def turtles
 end
 
 def turtle_traits(turtles)
-    turtles.each do |hash|
+    turtles.map do |hash|
       hash[:traits]
     end
 end
